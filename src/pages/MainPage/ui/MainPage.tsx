@@ -1,13 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
+import {useTranslation} from "react-i18next";
 
-class MainPage extends Component {
-    render() {
-        return (
-            <div>
-                Main Page
-            </div>
-        );
-    }
+const MainPage = () => {
+    const { t } = useTranslation('main');
+
+    return (
+        <div>
+            {t('Главная страница')}
+        </div>
+    );
 }
 
 export default MainPage;
