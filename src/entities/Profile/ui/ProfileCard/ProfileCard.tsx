@@ -32,12 +32,12 @@ export const ProfileCard = ({ className }: ProfileCardProps) => {
             </div>
             <div className={cls.data}>
                 <Input
-                    value={data?.first}
+                    value={data?.first || ''}
                     placeholder={t('Ваше имя')}
                     className={cls.input}
                 />
                 <Input
-                    value={data?.lastname}
+                    value={data?.lastname || ''}
                     placeholder={t('Ваше фамилия')}
                     className={cls.input}
                 />
