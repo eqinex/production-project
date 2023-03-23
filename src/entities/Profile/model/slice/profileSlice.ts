@@ -5,8 +5,8 @@ import { fetchProfileData } from '../service/fetchProfileData/fetchProfileData';
 const initialState: ProfileSchema = {
     readonly: true,
     isLoading: false,
-    error: null,
-    data: null,
+    error: undefined,
+    data: undefined,
 };
 
 export const profileSlice = createSlice({
@@ -16,7 +16,7 @@ export const profileSlice = createSlice({
     extraReducers: (builder) => {
         builder
             .addCase(fetchProfileData.pending, (state) => {
-                state.error = null;
+                state.error = undefined;
                 state.isLoading = true;
             })
             .addCase(fetchProfileData.fulfilled, (
