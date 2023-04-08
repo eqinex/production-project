@@ -1,14 +1,18 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
+import { memo } from 'react';
 import cls from './ArticleImageBlockComponent.module.scss';
+import { ArticleImageBlock } from '../../model/types/article';
 
 interface ArticleImageBlockComponentProps {
     className?: string;
+    block: ArticleImageBlock;
 }
 
-export const ArticleImageBlockComponent = (props: ArticleImageBlockComponentProps) => {
+export const ArticleImageBlockComponent = memo((props: ArticleImageBlockComponentProps) => {
     const {
         className,
+        block,
     } = props;
     const { t } = useTranslation();
 
@@ -17,4 +21,4 @@ export const ArticleImageBlockComponent = (props: ArticleImageBlockComponentProp
             ArticleImageBlockComponent
         </div>
     );
-};
+});
