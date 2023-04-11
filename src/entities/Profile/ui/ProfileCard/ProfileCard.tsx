@@ -111,13 +111,15 @@ export const ProfileCard = (props: ProfileCardProps) => {
                     onChange={onChangeUsername}
                     readonly={readonly}
                 />
-                <Input
-                    value={data?.avatar}
-                    placeholder={t('Введите ссылку на аватар')}
-                    className={cls.input}
-                    onChange={onChangeAvatar}
-                    readonly={readonly}
-                />
+                {__PROJECT__ !== 'storybook' && (
+                    <Input
+                        value={data?.avatar}
+                        placeholder={t('Введите ссылку на аватар')}
+                        className={cls.input}
+                        onChange={onChangeAvatar}
+                        readonly={readonly}
+                    />
+                )}
                 <CurrencySelect
                     className={cls.select}
                     readonly={readonly}
