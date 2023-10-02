@@ -120,14 +120,28 @@
       "avatar": "https://i.ebayimg.com/images/g/smkAAOSw0AZj4NDR/s-l400.jpg"
     }
   ],
-  "profile": {
-    "first": "Тимур",
-    "lastname": "Мазитов",
-    "age": 27,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Magnitogorsk",
-    "username": "admin",
-    "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
-  }
+  "profile": [
+    {
+      "id": 1,
+      "first": "Тимур",
+      "lastname": "Мазитов",
+      "age": 28,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Magnitogorsk",
+      "username": "admin",
+      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+    },
+    {
+      "id": 2,
+      "first": "Мария",
+      "lastname": "Кочеткова",
+      "age": 24,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Chelyabinsk",
+      "username": "morindayll",
+      "avatar": "https://i.ebayimg.com/images/g/smkAAOSw0AZj4NDR/s-l400.jpg"
+    }
+  ]
 }
