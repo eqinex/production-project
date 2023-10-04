@@ -120,6 +120,12 @@
       "userId": 2,
       "text": "Привет ха",
       "id": 6
+    },
+    {
+      "articleId": 1,
+      "userId": 2,
+      "text": "Привет мир",
+      "id": 7
     }
   ],
   "users": [
