@@ -94,14 +94,14 @@ const article = {
     ],
 } as Article;
 
-export const Big = Template.bind({});
-Big.args = {
-    view: ArticleView.BIG,
+export const List = Template.bind({});
+List.args = {
+    view: ArticleView.LIST,
     article,
 };
 
-export const Small = Template.bind({});
-Small.args = {
-    view: ArticleView.SMALL,
+export const Tile = Template.bind({});
+Tile.args = {
+    view: ArticleView.TILE,
     article,
 };

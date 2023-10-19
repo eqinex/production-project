@@ -1,8 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import React, { memo } from 'react';
-import { Text } from 'shared/ui/Text/Text';
-import { Icon } from 'shared/ui/Icon/Icon';
-import EyeIcon from 'shared/assets/icons/eye-20-20.svg';
 import { Card } from 'shared/ui/Card/Card';
 import { Skeleton } from 'shared/ui/Skeleton/Skeleton';
 import { ArticleView } from '../../model/types/article';
@@ -19,7 +16,7 @@ export const ArticleListItemSkeleton = memo((props: ArticleListItemSkeletonProps
         view,
     } = props;
 
-    if (view === ArticleView.BIG) {
+    if (view === ArticleView.LIST) {
         return (
             <div className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}>
                 <Card>

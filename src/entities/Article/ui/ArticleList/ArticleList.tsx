@@ -7,12 +7,12 @@ import { ArticleListItemSkeleton } from '../ArticleListItem/ArticleListItemSkele
 
 interface ArticleListProps {
     className?: string;
-    articles: Article[];
+    articles?: Article[];
     isLoading?: boolean;
     view?: ArticleView;
 }
 
-const getSkeletons = (view: ArticleView) => new Array(view === ArticleView.SMALL ? 9 : 3)
+const getSkeletons = (view: ArticleView) => new Array(view === ArticleView.TILE ? 9 : 3)
     .fill(0)
     .map((item, index) => (
         <ArticleListItemSkeleton className={cls.card} key={index} view={view} />
@@ -23,7 +23,7 @@ export const ArticleList = memo((props: ArticleListProps) => {
         className,
         articles,
         isLoading,
-        view = ArticleView.SMALL,
+        view = ArticleView.TILE,
     } = props;
 
     if (isLoading) {
@@ -46,7 +46,7 @@ export const ArticleList = memo((props: ArticleListProps) => {
     return (
         <div className={classNames(cls.ArticleList, {}, [className, cls[view]])}>
             {
-                articles.length > 0
+                articles?.length
                     ? articles.map(renderArticle)
                     : null
             }

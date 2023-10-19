@@ -94,22 +94,22 @@ const article = {
     ],
 } as Article;
 
-export const isLoadingBig = Template.bind({});
-isLoadingBig.args = {
+export const isLoadingList = Template.bind({});
+isLoadingList.args = {
     isLoading: true,
     articles: [],
-    view: ArticleView.BIG,
+    view: ArticleView.LIST,
 };
 
-export const isLoadingSmall = Template.bind({});
-isLoadingSmall.args = {
+export const isLoadingTile = Template.bind({});
+isLoadingTile.args = {
     isLoading: true,
     articles: [],
-    view: ArticleView.SMALL,
+    view: ArticleView.TILE,
 };
 
-export const ListSmall = Template.bind({});
-ListSmall.args = {
+export const viewTile = Template.bind({});
+viewTile.args = {
     isLoading: false,
     articles:
         new Array(9)
@@ -118,11 +118,11 @@ ListSmall.args = {
                 ...article,
                 id: index,
             })),
-    view: ArticleView.SMALL,
+    view: ArticleView.TILE,
 };
 
-export const ListBig = Template.bind({});
-ListBig.args = {
+export const viewList = Template.bind({});
+viewList.args = {
     isLoading: false,
     articles:
         new Array(9)
@@ -131,5 +131,5 @@ ListBig.args = {
                 ...article,
                 id: index,
             })),
-    view: ArticleView.BIG,
+    view: ArticleView.LIST,
 };
