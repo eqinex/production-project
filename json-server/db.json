@@ -90,7 +90,7 @@
       "subtitle": "Что нового в Python за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
       "views": 1022,
-      "createdAt": "26.02.2022",
+      "createdAt": "26.02.2019",
       "userId": 1,
       "type": [
         "IT"
@@ -110,11 +110,11 @@
     },
     {
       "id": 3,
-      "title": "PHPStorm news",
+      "title": "PHPStorm news. Обновления",
       "subtitle": "Что нового в PHPStorm за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/1200px-PhpStorm_Icon.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 533,
+      "createdAt": "26.06.2022",
       "userId": 1,
       "type": [
         "IT"
@@ -161,8 +161,8 @@
       "title": "PHPStorm news",
       "subtitle": "Что нового в PHPStorm за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/1200px-PhpStorm_Icon.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 777,
+      "createdAt": "26.02.2021",
       "userId": 1,
       "type": [
         "IT"
@@ -182,11 +182,11 @@
     },
     {
       "id": 6,
-      "title": "Python news",
+      "title": "Python news. Новости",
       "subtitle": "Что нового в Python за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 200,
+      "createdAt": "26.07.2023",
       "userId": 1,
       "type": [
         "IT"
@@ -209,7 +209,7 @@
       "title": "PHPStorm news",
       "subtitle": "Что нового в PHPStorm за 2023 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/1200px-PhpStorm_Icon.svg.png",
-      "views": 1022,
+      "views": 1337,
       "createdAt": "26.02.2022",
       "userId": 1,
       "type": [
